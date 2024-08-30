@@ -1,0 +1,130 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+/* aqui definimos a cor da sessão em que a classe global subtitulo está  */
+/* o subtitulo que estiver dentro de experiencia terá essa aplicação */
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  /* mesmo que aumente a tela o texto vai se manter  em 40 caretres*/
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+
+.experiencia-texto strong {
+  color: #141414;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* separa os elementos do grid na vertical e na horizontal */
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  /* será relative porque empresa-ano está dentro de empresa */
+  position: relative;
+}
+
+/* detalhe verde com gradiente */
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  /* esse top está respeitando o valor de padding, assim fica alinhadinho */
+  top: 20px;
+  left: -4px;
+}
+/* separar o ano do fluxo dos itens do grid */
+.empresa-ano {
+  /* quando define position em absoluto o elemento vai ter o tamanho exato do conteudo e quasndo tenta alinhar para a esquerda não tem efeito
+  um macetinho é aumentar o tamanho dos elementos no width*/
+  position: absolute;
+  /* está quebrado por conta de um ajuste fino no alinhamento */
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+.empresa-habilidades {
+  display: flex;
+  /* quebra pro lado caso não caiba todos os itens um do lado do outro */
+  flex-wrap: wrap;
+  gap: 10px;
+  /* alinha todos os itens no inicio */
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
+}
+
+/* responsivo */
+/* usar os pontos de quebra que já foram utilizados */
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  /* aqui voltamos o ano para o fluxo em sua posição iniciale mudamos a ordem de sua posição
+  onde ficará por último neste caso, abaixo de todos os elementos
+  é como se no html o span descesse */
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .empresa-ano::before {
+    content: "Ano: ";
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}

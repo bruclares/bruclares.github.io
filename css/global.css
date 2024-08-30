@@ -1,0 +1,50 @@
+/* este css vai ter tudo que for global como resertar estilos
+modificar o body e reutilizar classes */
+
+/* aqui iniciou fazedndo reset de body hs ul img e p
+alem de definir a cor e font family */
+
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  /* aqui ele vai manter a imagem a razão da iamgem 
+  vai definir automaticamente de acordo com o valor da largura */
+  height: auto;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  /* quebra a palavra */
+  word-break: break-all;
+  /* ch é o caracter 0, então aqui vai quebrar em 4 caracteres */
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}

@@ -1,0 +1,58 @@
+.header {
+  /* tamanho maximo do site deixa o conteudo mais concentrado principlamente em telas maiores, não cresce infinitamente  */
+  max-width: 1200px;
+  /* margem interna para desgrudar os elementos  */
+  /* se precisar colocar backgroun vai mudar e não fazer fazer margens em branco por isso não usa margin aqui*/
+  padding: 40px 20px;
+  /* aqui alinha um item de bloco com tamanho maximo: pra cima pra baixo e do lado e do outro */
+  margin: 0 auto;
+  /* um item ao lado do outro */
+  display: flex;
+  /* espaçar eles ao max */
+  justify-content: space-between;
+  /* alinhar os elementos ao centro */
+  align-items: center;
+}
+
+.header-menu {
+  /* os itens do menu ficam um do lado do outro */
+  display: flex;
+  /* para caso diminuir mais que o tamanho dele , ele começa a quebrar */
+  flex-wrap: wrap;
+  gap: 10px;
+  /* aqui vai alinhar ao centro os itens em flex quando diminuir a tela  */
+  justify-content: center;
+}
+
+.header-menu a {
+  /* para chegar nesse valor olha a definição da tipografia, pega o valor dela e 
+    divide por 16 (valor do rem) aqui ficou 18/16 */
+  font-size: 1.125rem;
+  /* altura de linha */
+  line-height: 1.3;
+  /* aqui aumenta a area de click, fica melhor no dedo 
+  lembrando que soma ao gap ja colocado */
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  /* para pegar corretamente os valor de padding */
+  display: block;
+}
+/* nao precisa deixar o site para fazer ele ser responsivo, ja começa logo 
+olha no inspecionar e veja onde ele começa a quebrar no responsivo, aqui foi abaixo de 800*/
+@media (max-width: 800px) {
+  .header {
+    /* como o header é display flex aqui agente muda a orientação do flex 
+    em coluna fica um embaixo do outro*/
+    flex-direction: column;
+    /* aumenta a distancia entreo os itens no responsivo  */
+    gap: 40px;
+    /* aqui ajusta o padding no responsivo, diminuindo para 20, por exemplo */
+    padding: 20px;
+  }
+  .header a {
+    /* fazer formato de botao em tela pequena para ver melhor a area de click*/
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+}
