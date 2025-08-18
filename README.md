@@ -1,78 +1,56 @@
-# Bruna Clares
+# Bruna Clares | Desenvolvedora de Software
 
-**Desenvolvedora Web Full Stack em formação**  
-🛠 Python | Flask | JavaScript | PostgreSQL | HTML5 | CSS3  
-🌐 Projetos em produção • Código com propósito • Deploy real
+**Backend com Python, Docker e PostgreSQL | Frontend em transição para React**
+---
+*Graduada em Análise e Desenvolvimento de Sistemas, cursando Sistemas de Informação (5º Semestre)*</sub>
 
 ---
 
-## 💡 Sobre mim
+## Sobre Mim
 
-Sou a ponte entre a tecnologia e os problemas do mundo real.  
-Depois de 18 anos liderando operações empresariais com foco em eficiência e tecnologia (ERP, e-commerce, dados), iniciei uma transição consciente para o desenvolvimento web — com um objetivo claro: **codificar soluções que importam.**
+Com 18 anos de experiência liderando operações e implementando tecnologia (ERPs, e-commerce), hoje eu construo o outro lado da solução: **o software**. Minha bagagem de negócios me dá uma visão única para desenvolver não apenas código, mas soluções eficientes que resolvem problemas reais.
 
-Hoje aplico diariamente o que estudo, desenvolvendo projetos próprios com deploy em produção. Minha stack gira em torno de:
+Meu foco é no desenvolvimento **backend**, construindo APIs robustas e escaláveis. Atualmente, minha stack principal é:
 
-- **Python & Flask** no backend, com APIs REST bem estruturadas  
-- **PostgreSQL** para persistência de dados  
-- **HTML, CSS e JavaScript puro** para interfaces acessíveis e responsivas  
-- **Deploy com Vercel**, versionamento semântico no GitHub e integração com serviços como Cloudinary
-
-🎯 Foco em código limpo, funcionalidade real e usabilidade prática.
+- **Linguagem e Framework:** Python, Flask
+- **Banco de Dados:** PostgreSQL, SQLAlchemy
+- **Containerização:** Docker, Docker Compose
+- **Frontend:** HTML5, CSS3, JavaScript (atualmente em aprofundamento para migrar para React)
+- **DevOps & Cloud:** Deploy contínuo na Vercel, Git (Versionamento Semântico), Cloudinary
 
 ---
 
-## 🚀 Projetos em destaque
+## Projetos em Destaque
 
-### 📸 [Aplicação Web para Fotógrafos](https://portfolio-fotografo.vercel.app/)
-Sistema completo para gerenciamento de portfólio com autenticação, upload para Cloudinary, painel administrativo e API REST.  
-🧩 `Flask` • `PostgreSQL` • `HTML` • `JavaScript` • `Cloudinary`
+### [API de Gestão de Orçamentos](https://github.com/bruclares/api-gestao-orcamentos) `(Em desenvolvimento ativo)`
+API RESTful para freelancers gerenciarem propostas e clientes. Um projeto que aplica conceitos modernos de desenvolvimento backend.
+- **Demonstra:** Arquitetura de microserviços (planejado), uso de **Docker e Docker Compose** para criar um ambiente de desenvolvimento reproduzível, filas assíncronas com Celery/Redis e design de API REST.
+- **Stack:** `Python` `Flask` `PostgreSQL` `Docker`
 
----
+### [Aplicação Web para Fotógrafos](https://portfolio-fotografo.vercel.app/) `(Live)`
+Sistema full-stack completo para gerenciamento de portfólio, com deploy em produção.
+- **Demonstra:** API REST completa, autenticação de usuários, integração com serviços de nuvem (Cloudinary para uploads de imagem) e deploy automatizado.
+- **Stack:** `Flask` `PostgreSQL` `JavaScript` `Cloudinary` `Vercel`
 
-### 🧭 [Portfólio pessoal](https://bruna-portifolio-iota.vercel.app)
-Um espaço onde compartilho minha trajetória e projetos de forma clara e acessível.  
-🧩 `HTML Semântico` • `CSS` • `JavaScript` • `Deploy na Vercel`
-
----
-
-### ⚖️ [Landing Page para Advogados](https://bruna-portifolio-iota.vercel.app/projetos.html)
-Página institucional com foco em design responsivo, acessibilidade e performance.  
-💯 100% Lighthouse em Acessibilidade, SEO e Boas Práticas.  
-🧩 `HTML` • `CSS` • `Vercel`
+### [ListUp - Gerenciador de Tarefas](https://github.com/bruclares/listup)
+Aplicação CRUD que demonstra a base do desenvolvimento web com arquitetura MVC.
+- **Demonstra:** Domínio de operações CRUD, arquitetura MVC e manipulação de banco de dados relacional.
+- **Stack:** `Flask` `PostgreSQL` `Bootstrap 5`
 
 ---
 
-### ✅ [ListUp - Gerenciador de Tarefas](https://github.com/bruclares/listup)
-CRUD completo com arquitetura MVC, design responsivo e banco relacional.  
-🧩 `Flask` • `Bootstrap 5` • `PostgreSQL`
+## Foco Atual & Próximos Passos
+
+Meu objetivo é aprofundar minha especialização em ecossistemas modernos de desenvolvimento.
+
+- **JavaScript:** Finalizando curso completo para solidificar a base.
+- **React:** Próximo passo imediato, aplicando o conhecimento de JS para construir interfaces dinâmicas.
+- **Docker:** Aprimorando o uso em projetos práticos para garantir ambientes consistentes e escaláveis.
 
 ---
 
-### 🐾 [VacinaPet - Gestão Veterinária](https://github.com/bruclares/vacinapet)
-Sistema para controle de vacinação de pets com autenticação e gestão de usuários.  
-🧩 `Flask` • `PostgreSQL` • `Kanban`
+## Vamos Conversar?
 
----
-
-## 📌 Em desenvolvimento
-
-- Finalizando graduação em **Análise e Desenvolvimento de Sistemas** – conclusão: 06/2025  
-- Explorando **React**, **Tailwind CSS**, **Node.js**  
-- Desenvolvendo interfaces mais acessíveis e sistemas mais inteligentes com foco em inclusão digital
-
----
-
-## 📫 Vamos conversar?
-
-- 📧 clares.bruna@gmail.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/bruna-clares-cardoso)  
-- 🌐 [Portfólio](https://bruna-portifolio-iota.vercel.app)  
-
----
-
-## 🧭 Visão de futuro
-
-> Não estou apenas aprendendo código. Estou aprendendo a resolver melhor.
-
-
+- 📧 **Email:** clares.bruna@gmail.com
+- 🔗 **LinkedIn:** [linkedin.com/in/bruna-clares-cardoso](https://www.linkedin.com/in/bruna-clares-cardoso)
+- 🌐 **Portfólio Completo:** [bruna-portifolio-iota.vercel.app](https://bruna-portifolio-iota.vercel.app)
