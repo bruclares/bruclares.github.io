@@ -1,56 +1,102 @@
-# Bruna Clares | Desenvolvedora de Software
+# Bruna Clares | Desenvolvedora Backend
 
-**Backend com Python, Docker e PostgreSQL | Frontend em transição para React**
----
-*Graduada em Análise e Desenvolvimento de Sistemas, cursando Sistemas de Informação (5º Semestre)*</sub>
-
----
-
-## Sobre Mim
-
-Com 18 anos de experiência liderando operações e implementando tecnologia (ERPs, e-commerce), hoje eu construo o outro lado da solução: **o software**. Minha bagagem de negócios me dá uma visão única para desenvolver não apenas código, mas soluções eficientes que resolvem problemas reais.
-
-Meu foco é no desenvolvimento **backend**, construindo APIs robustas e escaláveis. Atualmente, minha stack principal é:
-
-- **Linguagem e Framework:** Python, Flask
-- **Banco de Dados:** PostgreSQL, SQLAlchemy
-- **Containerização:** Docker, Docker Compose
-- **Frontend:** HTML5, CSS3, JavaScript (atualmente em aprofundamento para migrar para React)
-- **DevOps & Cloud:** Deploy contínuo na Vercel, Git (Versionamento Semântico), Cloudinary
+**Python • Flask • PostgreSQL • Docker**  
+Graduada em Análise e Desenvolvimento de Sistemas  
+Bacharelado em Sistemas de Informação (em andamento)
 
 ---
 
-## Projetos em Destaque
+## 👩‍💻 Sobre Mim
 
-### [API de Gestão de Orçamentos](https://github.com/bruclares/api-gestao-orcamentos) `(Em desenvolvimento ativo)`
-API RESTful para freelancers gerenciarem propostas e clientes. Um projeto que aplica conceitos modernos de desenvolvimento backend.
-- **Demonstra:** Arquitetura de microserviços (planejado), uso de **Docker e Docker Compose** para criar um ambiente de desenvolvimento reproduzível, filas assíncronas com Celery/Redis e design de API REST.
-- **Stack:** `Python` `Flask` `PostgreSQL` `Docker`
+Depois de 18 anos atuando em operações e sistemas corporativos (ERP, e-commerce e processos), fiz a transição para o desenvolvimento de software com foco em **backend e engenharia de sistemas**.
 
-### [Aplicação Web para Fotógrafos](https://portfolio-fotografo.vercel.app/) `(Live)`
-Sistema full-stack completo para gerenciamento de portfólio, com deploy em produção.
-- **Demonstra:** API REST completa, autenticação de usuários, integração com serviços de nuvem (Cloudinary para uploads de imagem) e deploy automatizado.
-- **Stack:** `Flask` `PostgreSQL` `JavaScript` `Cloudinary` `Vercel`
-
-### [ListUp - Gerenciador de Tarefas](https://github.com/bruclares/listup)
-Aplicação CRUD que demonstra a base do desenvolvimento web com arquitetura MVC.
-- **Demonstra:** Domínio de operações CRUD, arquitetura MVC e manipulação de banco de dados relacional.
-- **Stack:** `Flask` `PostgreSQL` `Bootstrap 5`
+Minha principal força é unir **visão de negócio + construção técnica**, desenvolvendo APIs e serviços pensando em **confiabilidade, dados, automação e impacto real na operação**.  
+Hoje atuo em projetos autorais para consolidar arquitetura, persistência de dados, autenticação e integração de sistemas.
 
 ---
 
-## Foco Atual & Próximos Passos
+## 🧠 Stack Principal
 
-Meu objetivo é aprofundar minha especialização em ecossistemas modernos de desenvolvimento.
+- **Backend:** Python, Flask  
+- **Banco de Dados:** PostgreSQL, SQLAlchemy  
+- **Infraestrutura:** Docker, Docker Compose  
+- **APIs:** REST, JWT  
+- **Frontend (camada de consumo):** HTML5, CSS3, JavaScript  
+- **Deploy & Ferramentas:** Vercel, Git, Cloudinary  
 
-- **JavaScript:** Finalizando curso completo para solidificar a base.
-- **React:** Próximo passo imediato, aplicando o conhecimento de JS para construir interfaces dinâmicas.
-- **Docker:** Aprimorando o uso em projetos práticos para garantir ambientes consistentes e escaláveis.
+> Frontend é utilizado como **camada de consumo de API**. React entra como próxima etapa de evolução, sem mudança de foco principal.
 
 ---
 
-## Vamos Conversar?
+## 🧩 Projetos em Destaque
 
-- 📧 **Email:** clares.bruna@gmail.com
-- 🔗 **LinkedIn:** [linkedin.com/in/bruna-clares-cardoso](https://www.linkedin.com/in/bruna-clares-cardoso)
-- 🌐 **Portfólio Completo:** [bruna-portifolio-iota.vercel.app](https://bruna-portifolio-iota.vercel.app)
+### ✅ API de Gestão de Orçamentos e Propostas *(em desenvolvimento ativo)*
+
+Sistema backend para automação de orçamentos, geração de documentos e comunicação com clientes.
+
+**O que este projeto demonstra:**
+- Design de API REST transacional
+- Modelagem relacional com PostgreSQL
+- Autenticação JWT
+- Processamento em segundo plano para tarefas pesadas
+- Ambiente reproduzível com Docker
+- Arquitetura modular com Blueprints
+
+**Stack:**  
+Python • Flask • PostgreSQL • Docker • Celery • Redis
+
+🔗 Repositório: https://github.com/bruclares/api-gestao-orcamentos
+
+---
+
+### ✅ Sistema Web para Fotógrafos *(em produção)*
+
+Aplicação completa para gerenciamento de portfólio e atendimento.
+
+**Demonstra:**
+- Backend de autenticação e controle de acesso
+- Integração com API externa (Cloudinary)
+- Persistência de dados e rotas protegidas
+- Deploy funcional em produção
+
+**Stack:**  
+Flask • PostgreSQL • JavaScript • Cloudinary • Vercel
+
+🔗 Aplicação: https://portfolio-fotografo.vercel.app/  
+🔗 Repositório: https://github.com/bruclares/portfolio-fotografo
+
+---
+
+### ✅ ListUp – Gerenciador de Tarefas
+
+Projeto para consolidação dos fundamentos de backend.
+
+**Demonstra:**
+- Operações CRUD completas
+- Arquitetura MVC
+- Integração entre backend e banco relacional
+
+**Stack:**  
+Flask • PostgreSQL • Bootstrap
+
+🔗 Repositório: https://github.com/bruclares/listup
+
+---
+
+## 🎯 Foco Atual & Próximos Passos
+
+- Aprofundamento em **backend, testes e segurança**
+- Evolução no uso de **Docker em projetos reais**
+- Finalização da base em **JavaScript**
+- Início do **React como camada de interface**
+- Estudo contínuo de **arquitetura e escalabilidade**
+
+---
+
+## 📬 Contato
+
+📧 Email: clares.bruna@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/bruna-clares-cardoso  
+🌐 Portfólio: https://bruna-portifolio-iota.vercel.app  
+
+---
